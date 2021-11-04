@@ -1,0 +1,175 @@
+
+body{
+
+
+	background-color: whitesmoke;
+	margin: 0; padding: 0;
+}
+.navbar-brand{
+	font-size: 500px;
+}
+.loginHeader{
+
+	text-align: center;
+	margin-bottom: 50px;
+
+
+	}
+.loginHeader h1 {
+
+	font-size: 100px;
+	
+	padding: 0px;
+	margin: 0px;
+}
+.loginHeader p{
+
+	font-size: 50px;
+	margin: 0px;
+	text-transform: uppercase;
+	display: inline-block;
+
+}
+.loginHeader p::after{
+	content: '';
+	display: block;
+	height:  5px;
+	background: #041DFB;
+	margin: 0 auto;
+
+}
+.loginbody form{
+
+	margin: 0 auto;
+	width: 300px;
+	background: rgba(0,0,0,.8);
+	padding: 50px;
+	border: 2px solid #041DFB;
+	border-radius: 50px;
+}
+.loginInputcontainer{
+	margin: 20px;
+	
+}
+.loginInputcontainer label{
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+
+}
+.loginInputcontainer input{
+height: 30px;
+width: 100%;
+border-radius: 8px;
+border-color: #07BBFC;
+font-size: 20px;
+padding: 5px;
+text-align: center;
+}
+
+.loginButtonContainer{
+margin-top: 40px;
+text-align: center;
+}
+.loginButtonContainer button{
+
+	width: 50%;
+	font-size: 20px;
+	padding: 8px;
+	border-radius: 10px;
+	border-color: #07BBFC;
+	background-color: green;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.mainmain button{
+	margin-left: 500px;
+}
+
+
+
+
+.header{
+
+font-size: 30px;
+font-weight: 30px;
+margin: 20px;
+	height: 30px;
+
+
+}
+.inputbtn{
+
+
+	margin: 20px;
+	height: 30px;
+width: 10%;
+}
+.submit{
+
+	margin: 20px;
+	height: 30px;
+
+	width: 5%;
+
+}
+.container_login{
+
+		
+}
+.container_login h1{
+
+		font-size: 40px;
+
+
+}
+.container_login input{
+
+		margin: 20px;
+		height: 30px;
+		width: 10%;
+
+}
+
+.content-table{
+
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 3.0em;
+	min-width: 400px;
+
+}
+
+.content-table th {
+
+	background-color: #009879;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+}
+.content-table tr,
+.content-table td{
+
+	padding: 12px 15px;
+
+}
+.content-table tbody th{
+
+	border-bottom: 1px solid #dddddd;
+}
+.content-table tbody tr:nth-of-type(even){
+	background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type(even){
+
+	border-bottom: 2px solid #009879;
+}
+.content-table button{
+	font-size: 0.5em;
+	background-color: #644c4cad;
+	text-decoration-color: black;
+
+}

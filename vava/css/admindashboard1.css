@@ -1,0 +1,107 @@
+#Dashboardmaincontainer{
+	display: flex;
+	flex-direction: row;
+	
+
+}
+.Dashboard_sidebar{
+	width: 20%;
+	background: #323232;
+	height: 100vh;
+}
+.Dashboard_content_container{
+	width: 80%;
+	background: #f4f6f9;
+
+}
+h3.Dashboard_logo{
+
+	color: #37C9FD;
+	font-size: 80px;
+	text-align: center;
+	margin:10px;
+	
+}
+.Dashboard_sidebar_user{
+	position: relative;
+	padding-bottom: 20px;
+	border-bottom: 1px solid white;
+	margin-left:40px;
+
+}
+.Dashboard_sidebar_user img{
+
+	width: 60px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid #37C9FD;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.Dashboard_sidebar_user span{
+	position: absolute;
+	top: 20%;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	display: inline-block;
+
+}
+
+.dashboard_menu_list{ 
+	list-style-type: none;
+	margin-top: 20px;
+	text-align: left;
+}
+.dashboard_menu_list li{
+	padding: 15px 15px;
+	
+	text-transform: uppercase;
+
+
+}
+.dashboard_menu_list li a{
+	text-decoration: none;
+	color: white;
+	height: auto;
+	display: block;
+	font-size: 15px;
+}
+.dashboard_menu_list li a i{
+font-size: 25px;
+}
+.dashboard_menu_list li a.menuactive{
+	background: #37C9FD;
+	color: white;
+
+}
+.dashboard_menu_list li:hover{
+	background: #37C9FD;
+	color: white;
+	transition: 0.3s all;
+
+}
+
+.dashboard_topNav{
+	background: white;
+	padding: 30px;
+}
+.dashboard_topNav a{
+color: #848383;
+font-size: 18px;
+text-decoration: none;
+
+}
+
+#logoutbtn{
+
+	float: right;
+}
+.Dashboard_content{
+	padding: 50px 10px 10px 10px;
+}
+.Dashboard_content_main{
+	background: white;
+	
+	height: 100%;
+}
